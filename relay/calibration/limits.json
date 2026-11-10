@@ -1,0 +1,16 @@
+{
+ "openai/gpt-oss-120b": {
+  "rpm": 30,
+  "tpm": 8000,
+  "rpd": 1000,
+  "tpd": 200000,
+  "max_inflight": 16
+ },
+ "openai/gpt-oss-20b": {
+  "rpm": 30,
+  "tpm": 8000,
+  "rpd": 1000,
+  "tpd": 200000,
+  "max_inflight": 16
+ }
+}

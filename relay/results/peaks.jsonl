@@ -1,0 +1,11 @@
+{"scenario": "steady", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 1}, "t": 1794249053.6822565}
+{"scenario": "burst", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 3}, "t": 1794249300.6138275}
+{"scenario": "daily-small40left", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 1}, "t": 1794249423.076377}
+{"scenario": "overload", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 3}, "t": 1794249727.3070145}
+{"scenario": "halved-static", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 2}, "t": 1794249980.607917}
+{"scenario": "burst-nocache", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 3}, "t": 1794250222.862741}
+{"scenario": "overload-naive", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 3}, "t": 1794250530.2958848}
+{"scenario": "halved", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 2}, "t": 1794250807.8940918}
+{"scenario": "daily", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 1}, "t": 1794250930.1337998}
+{"scenario": "halved-static-naive", "source": "standin", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 1}, "t": 1794251175.9141407}
+{"scenario": "steady-real", "source": "real", "peak_queue": {"openai/gpt-oss-120b": 1, "openai/gpt-oss-20b": 1}, "t": 1794305092.9473736}

@@ -1,0 +1,168 @@
+{
+ "route": {
+  "small-k8-rr": {
+   "recall": 90.0,
+   "ctx_tokens": 1454,
+   "misses": [
+    "m3",
+    "h6"
+   ],
+   "unans_top": [
+    51.7,
+    8.6,
+    11.7,
+    3.7,
+    10.4
+   ],
+   "ans_top_min": null
+  },
+  "mid-k4-rr": {
+   "recall": 90.0,
+   "ctx_tokens": 1495,
+   "misses": [
+    "m3",
+    "h6"
+   ],
+   "unans_top": [
+    48.4,
+    7.2,
+    10.9,
+    3.6,
+    12.0
+   ],
+   "ans_top_min": null
+  },
+  "mid-k4-norr": {
+   "recall": 90.0,
+   "ctx_tokens": 1427,
+   "misses": [
+    "m3",
+    "h6"
+   ],
+   "unans_top": [
+    35.1,
+    9.0,
+    14.0,
+    2.7,
+    9.9
+   ],
+   "ans_top_min": null
+  },
+  "large-k2-norr": {
+   "recall": 90.0,
+   "ctx_tokens": 1255,
+   "misses": [
+    "m3",
+    "h6"
+   ],
+   "unans_top": [
+    32.7,
+    7.9,
+    13.9,
+    2.5,
+    9.9
+   ],
+   "ans_top_min": null
+  },
+  "mid-k2-rr": {
+   "recall": 90.0,
+   "ctx_tokens": 722,
+   "misses": [
+    "m3",
+    "h6"
+   ],
+   "unans_top": [
+    48.4,
+    7.2,
+    10.9,
+    3.6,
+    12.0
+   ],
+   "ans_top_min": null
+  }
+ },
+ "noroute": {
+  "small-k8-rr": {
+   "recall": 90.0,
+   "ctx_tokens": 1450,
+   "misses": [
+    "m3",
+    "h6"
+   ],
+   "unans_top": [
+    40.4,
+    6.5,
+    8.7,
+    3.7,
+    10.4
+   ],
+   "ans_top_min": null
+  },
+  "mid-k4-rr": {
+   "recall": 90.0,
+   "ctx_tokens": 1476,
+   "misses": [
+    "m3",
+    "h6"
+   ],
+   "unans_top": [
+    37.9,
+    7.2,
+    8.0,
+    3.6,
+    12.0
+   ],
+   "ans_top_min": null
+  },
+  "mid-k4-norr": {
+   "recall": 90.0,
+   "ctx_tokens": 1407,
+   "misses": [
+    "m3",
+    "h6"
+   ],
+   "unans_top": [
+    26.0,
+    9.0,
+    10.4,
+    2.7,
+    9.9
+   ],
+   "ans_top_min": null
+  },
+  "large-k2-norr": {
+   "recall": 85.0,
+   "ctx_tokens": 1210,
+   "misses": [
+    "m3",
+    "m7",
+    "h6"
+   ],
+   "unans_top": [
+    24.2,
+    7.3,
+    10.3,
+    2.5,
+    9.9
+   ],
+   "ans_top_min": null
+  },
+  "mid-k2-rr": {
+   "recall": 85.0,
+   "ctx_tokens": 726,
+   "misses": [
+    "m3",
+    "m7",
+    "h6"
+   ],
+   "unans_top": [
+    37.9,
+    7.2,
+    8.0,
+    3.6,
+    12.0
+   ],
+   "ans_top_min": null
+  }
+ }
+}

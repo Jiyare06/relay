@@ -1,0 +1,12 @@
+request_id,qid,old,new,answer
+quality-small-k8-rr-sentence-20b-0003,a4,wrong,correct,Training the big Transformer models took 3.5 days on a single machine with 8 NVIDIA P100 GPUs. [3][7]
+quality-small-k8-rr-sentence-20b-0010,m5,wrong,correct,The unsupervised audio collection used to pretrain Moshi contains 7 million hours of audio. [1][2]
+quality-small-k8-rr-sentence-20b-0017,h5,wrong,correct,"After just 30 B training bytes, the 2‑stage H‑Net overtakes the perplexity of the tokenized Transformer. [1]"
+quality-mid-k4-rr-sentence-20b-0003,a4,wrong,correct,The big Transformer models were trained for 3.5 days on 8 NVIDIA P100 GPUs. [2][4]
+quality-mid-k4-rr-sentence-20b-0010,m5,wrong,correct,7 million hours of audio are in the unsupervised audio collection used to pretrain Moshi. [1]
+quality-mid-k4-rr-sentence-20b-0011,m6,wrong,correct,"The supervised multi‑stream dataset, consisting of 170 hours of natural and scripted phone conversations recorded on separate channels, is used to fine‑tune Moshi. [1]"
+quality-mid-k4-rr-sentence-20b-0017,h5,wrong,correct,"After just 30 B training bytes, a byte‑level 2‑stage H‑Net overtakes the perplexity of a strong tokenized Transformer. [1]"
+quality-mid-k4-norr-sentence-20b-0011,m6,wrong,correct,"The supervised multi‑stream dataset, consisting of 170 hours of natural and scripted phone conversations recorded on separate channels, is used to fine‑tune Moshi. [1]"
+quality-mid-k4-rr-sentence-120b-0011,m6,wrong,correct,"The supervised multi‑stream dataset, which consists of phone‑conversation recordings with separate speaker channels, is used to fine‑tune Moshi and contains 170 hours of audio [1]."
+quality-large-k2-norr-sentence-20b-0011,m6,wrong,correct,"The supervised multi-stream dataset, consisting of 170 hours of natural and scripted phone conversations recorded on separate channels, is used to fine‑tune Moshi. [1]"
+quality-mid-k4-rr-group-120b-0011,m6,wrong,correct,Moshi is fine‑tuned on a supervised multi‑stream dataset of phone conversations that contains 170 hours of audio [1]

@@ -1,0 +1,293 @@
+[
+ {
+  "id": "a1",
+  "q": "How many attention heads does the base Transformer use, and what is the dimension of each head?",
+  "paper": "AIAYN",
+  "answerable": true,
+  "expect": [
+   [
+    "8",
+    "eight"
+   ],
+   [
+    "64"
+   ]
+  ]
+ },
+ {
+  "id": "a2",
+  "q": "What warmup_steps value was used in the Transformer learning rate schedule?",
+  "paper": "AIAYN",
+  "answerable": true,
+  "expect": [
+   [
+    "4000"
+   ]
+  ]
+ },
+ {
+  "id": "a3",
+  "q": "What BLEU score did the Transformer big model get on WMT 2014 English-to-German?",
+  "paper": "AIAYN",
+  "answerable": true,
+  "expect": [
+   [
+    "28.4"
+   ]
+  ]
+ },
+ {
+  "id": "a4",
+  "q": "How long did training the big Transformer models take, and on what hardware?",
+  "paper": "AIAYN",
+  "answerable": true,
+  "expect": [
+   [
+    "3.5 days"
+   ],
+   [
+    "P100"
+   ]
+  ]
+ },
+ {
+  "id": "a5",
+  "q": "What value of label smoothing was used when training the Transformer?",
+  "paper": "AIAYN",
+  "answerable": true,
+  "expect": [
+   [
+    "0.1"
+   ]
+  ]
+ },
+ {
+  "id": "a6",
+  "q": "What is the inner-layer dimensionality of the position-wise feed-forward network in the base Transformer?",
+  "paper": "AIAYN",
+  "answerable": true,
+  "expect": [
+   [
+    "2048"
+   ]
+  ]
+ },
+ {
+  "id": "m1",
+  "q": "What frame rate and bitrate does the Mimi codec operate at?",
+  "paper": "MOSHI",
+  "answerable": true,
+  "expect": [
+   [
+    "12.5"
+   ],
+   [
+    "1.1"
+   ]
+  ]
+ },
+ {
+  "id": "m2",
+  "q": "What is Moshi's theoretical latency and its latency in practice?",
+  "paper": "MOSHI",
+  "answerable": true,
+  "expect": [
+   [
+    "160"
+   ],
+   [
+    "200"
+   ]
+  ]
+ },
+ {
+  "id": "m3",
+  "q": "How many parameters does Helium have and how many tokens was it pretrained on?",
+  "paper": "MOSHI",
+  "answerable": true,
+  "expect": [
+   [
+    "7B",
+    "7 billion"
+   ],
+   [
+    "2.1T",
+    "2.1 trillion"
+   ]
+  ]
+ },
+ {
+  "id": "m4",
+  "q": "What context length does the Helium text model use?",
+  "paper": "MOSHI",
+  "answerable": true,
+  "expect": [
+   [
+    "4,096",
+    "4096"
+   ]
+  ]
+ },
+ {
+  "id": "m5",
+  "q": "How many hours of audio are in the unsupervised audio collection used to pretrain Moshi?",
+  "paper": "MOSHI",
+  "answerable": true,
+  "expect": [
+   [
+    "7 million"
+   ]
+  ]
+ },
+ {
+  "id": "m6",
+  "q": "Which dataset of phone conversations is used to fine-tune Moshi, and how many hours does it contain?",
+  "paper": "MOSHI",
+  "answerable": true,
+  "expect_any": [
+   [
+    [
+     "Fisher"
+    ],
+    [
+     "2000",
+     "2,000"
+    ]
+   ],
+   [
+    [
+     "supervised multi"
+    ],
+    [
+     "170"
+    ]
+   ]
+  ],
+  "note": "Rubric widened after reading answers: the paper fine-tunes on Fisher (2000 h) AND on a 170 h 'supervised multi-stream dataset'; my question was ambiguous. Saying Fisher has 170 h stays wrong."
+ },
+ {
+  "id": "m7",
+  "q": "How many tokens are in the Helium tokenizer vocabulary?",
+  "paper": "MOSHI",
+  "answerable": true,
+  "expect": [
+   [
+    "32,000",
+    "32000"
+   ]
+  ]
+ },
+ {
+  "id": "h1",
+  "q": "What two techniques make up dynamic chunking in H-Net?",
+  "paper": "HNET",
+  "answerable": true,
+  "expect": [
+   [
+    "routing"
+   ],
+   [
+    "smoothing"
+   ]
+  ]
+ },
+ {
+  "id": "h2",
+  "q": "How does the H-Net routing module decide where chunk boundaries go?",
+  "paper": "HNET",
+  "answerable": true,
+  "expect": [
+   [
+    "cosine"
+   ]
+  ]
+ },
+ {
+  "id": "h3",
+  "q": "What layers does H-Net use as the main building blocks of its encoder and decoder networks?",
+  "paper": "HNET",
+  "answerable": true,
+  "expect": [
+   [
+    "Mamba"
+   ]
+  ]
+ },
+ {
+  "id": "h4",
+  "q": "How much did H-Net improve XWinograd-zh compared to the tokenized Transformer?",
+  "paper": "HNET",
+  "answerable": true,
+  "expect": [
+   [
+    "59.9"
+   ],
+   [
+    "66.3"
+   ]
+  ]
+ },
+ {
+  "id": "h5",
+  "q": "After how many training bytes does the 2-stage H-Net overtake the perplexity of the tokenized Transformer?",
+  "paper": "HNET",
+  "answerable": true,
+  "expect": [
+   [
+    "30B"
+   ]
+  ]
+ },
+ {
+  "id": "h6",
+  "q": "Which dataset and how many tokens were the H-Net language models trained on?",
+  "paper": "HNET",
+  "answerable": true,
+  "expect": [
+   [
+    "FineWeb"
+   ],
+   [
+    "100B"
+   ]
+  ]
+ },
+ {
+  "id": "x1",
+  "q": "How many attention heads does Moshi's Temporal Transformer use?",
+  "paper": "MOSHI",
+  "answerable": true,
+  "expect": [
+   [
+    "32"
+   ]
+  ],
+  "note": "trap: naive retrieval pulls AIAYN h=8"
+ },
+ {
+  "id": "u1",
+  "q": "What BLEU score does Moshi achieve on WMT 2014 English-to-German?",
+  "answerable": false
+ },
+ {
+  "id": "u2",
+  "q": "How many GPUs and how many days were used to train H-Net?",
+  "answerable": false,
+  "note": "check: paper may not state; grade by hand if it does"
+ },
+ {
+  "id": "u3",
+  "q": "What is the price per hour of running Moshi on an L4 GPU in the cloud?",
+  "answerable": false
+ },
+ {
+  "id": "u4",
+  "q": "Who won the 2022 FIFA World Cup?",
+  "answerable": false
+ },
+ {
+  "id": "u5",
+  "q": "Does the Transformer paper report results on speech recognition benchmarks?",
+  "answerable": false
+ }
+]

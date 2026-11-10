@@ -1,0 +1,21 @@
+{
+ "openai/gpt-oss-120b": {
+  "n_ok": 60,
+  "ttft_median_ms": 469,
+  "ttft_sigma": 0.612,
+  "tok_per_s": 1222,
+  "slow_rate": 0.04,
+  "tpm_header": 8000,
+  "rpd_header": 1000
+ },
+ "openai/gpt-oss-20b": {
+  "n_ok": 75,
+  "ttft_median_ms": 500,
+  "ttft_sigma": 0.286,
+  "tok_per_s": 2190,
+  "slow_rate": 0.0,
+  "tpm_header": 8000,
+  "rpd_header": 1000,
+  "rpm_429": 30
+ }
+}
