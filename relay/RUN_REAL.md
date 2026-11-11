@@ -1,6 +1,6 @@
 # Running the real-Groq steps on your computer
 
-This session's cloud sandbox can't reach api.groq.com, so these steps run on your machine.
+These steps call the real Groq API, so they need network access to api.groq.com and your key in GROQ_API_KEY.
 
 1. Install Python 3.11+ (python.org). On Windows, tick "Add python to PATH" in the installer.
 2. Unzip `relay.zip`, open a terminal in the unzipped `relay` folder, and install the two libraries:

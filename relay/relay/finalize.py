@@ -2,7 +2,7 @@
 
 Inputs (untouched originals kept in incoming/):
   incoming/results.csv, incoming/results_traces.jsonl   real-service rows, run on my laptop
-  results/standin.csv, results/standin_traces.jsonl      stand-in rows, run in the sandbox
+  results/standin.csv, results/standin_traces.jsonl      stand-in rows, run on a separate Linux machine
 Steps:
   1. Name every quality run by its verifier version (v1 'sentence' runs predate the flag).
   2. Label rows that failed because my laptop lost network (HTTP status 0, never reached
